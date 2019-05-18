@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 } 
 
 
-$names= $_POST["name"];
+//$names= $_POST["name"];
 $sql = "INSERT INTO data (name, email, phone,college)
 VALUES ('".$_POST["name"]."','".$_POST["email"]."','".$_POST["phone"]."','".$_POST["College"]."')";
 
