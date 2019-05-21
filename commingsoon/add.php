@@ -12,19 +12,20 @@ if ($conn->connect_error) {
 } 
 
 
-//$names= $_POST["name"];
+
 $sql = "INSERT INTO data (name, email, phone,college)
 VALUES ('".$_POST["name"]."','".$_POST["email"]."','".$_POST["phone"]."','".$_POST["College"]."')";
 
 
-
+//store
 
 if ($conn->query($sql) === TRUE) {
- 
+ //return to jquery
     exit;
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
+//close the databse connection
 $conn->close();
 ?>
