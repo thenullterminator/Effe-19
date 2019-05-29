@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 /* CSS Document */
 
 
@@ -69,149 +70,36 @@
 
 /* TEMPLATE BACKGROUNDS */
 /* single IMG BACKGROUND */
-.bg-img-SINGLE {
-background-image: url(../img/background/SINGLE-bg.jpg);
-}
-
-/* single IMG BACKGROUND - FILM GRAIN */
-.bg-img-SINGLE-FILM-GRAIN {
-background-image: url(../img/background/SINGLE-bg-FILM-GRAIN.jpg);
-}
-
-/* single IMG BACKGROUND - PARTICLES */
-.bg-img-SINGLE-PARTICLES {
-background-image: url(../img/background/SINGLE-bg-PARTICLES.jpg);
-}
-
-/* single IMG BACKGROUND - SNOW */
-.bg-img-SINGLE-SNOW {
-background-image: url(../img/background/SINGLE-bg-SNOW.jpg);
-}
-
-/* single IMG BACKGROUND - FOG */
-.bg-img-SINGLE-FOG {
-background-image: url(../img/background/SINGLE-bg-FOG.jpg);
-}
-
-/* single IMG BACKGROUND - RAIN */
-.bg-img-SINGLE-RAIN {
-background-image: url(../img/background/SINGLE-bg-RAIN.jpg);
-}
-
-/* single IMG BACKGROUND - CLOUDS */
-.bg-img-SINGLE-CLOUDS {
-background-image: url(../img/background/SINGLE-bg-CLOUDS.jpg);
-}
-
-/* single IMG BACKGROUND - BIRDS */
-.bg-img-SINGLE-BIRDS {
-background-image: url(../img/background/SINGLE-bg-BIRDS.jpg);
-}
 
 
 /* ken burns slideshow IMG BACKGROUND */
 .kenburns-slide-1 {
-background-image: url(../img/background/kenburns-bg-1.jpg);
-}
-
-.kenburns-slide-2 {
-background-image: url(../img/background/kenburns-bg-2.jpg);
-}
-
-.kenburns-slide-3 {
-background-image: url(../img/background/kenburns-bg-3.jpg);
-}
-
+  background-image: url(../img/background/img12.jpg);
+  }
+  
+  .kenburns-slide-2 {
+  background-image: url(../img/background/img2.jpg);
+  }
+  
+  .kenburns-slide-3 {
+  background-image: url(../img/background/img3.jpg);
+  }
+  
+  /* .kenburns-slide-4 {
+  background-image: url(../img/background/img4.jpg);
+  }
+   */
 .kenburns-slide-4 {
-background-image: url(../img/background/kenburns-bg-4.jpg);
+  background-image: url(../img/background/img5.jpg);
+  }
+/* 
+.kenburns-slide-6{
+  background-image: url(../img/background/img6.jpg);
 }
+.kenburns-slide-7{
+  background-image: url(../img/background/img7.jpg);
+} */
 
-/* ken burns slideshow IMG BACKGROUND - RAIN, PARTICLES */
-.kenburns-slide-1-2 {
-background-image: url(../img/background/kenburns-bg-1-2.jpg);
-}
-
-.kenburns-slide-2-2 {
-background-image: url(../img/background/kenburns-bg-2-2.jpg);
-}
-
-.kenburns-slide-3-2 {
-background-image: url(../img/background/kenburns-bg-3-2.jpg);
-}
-
-.kenburns-slide-4-2 {
-background-image: url(../img/background/kenburns-bg-4-2.jpg);
-}
-
-
-/* hero slider IMG BACKGROUND */
-.bg-img-1 {
-background-image: url(../img/background/hero-bg-1.jpg);
-}
-
-.bg-img-2 {
-background-image: url(../img/background/hero-bg-2.jpg);
-}
-
-.bg-img-3 {
-background-image: url(../img/background/hero-bg-3.jpg);
-}
-
-.bg-img-4 {
-background-image: url(../img/background/hero-bg-4.jpg);
-}
-
-/* hero slider IMG BACKGROUND - RAIN, PARTICLES */
-.bg-img-1-2 {
-background-image: url(../img/background/hero-bg-1-2.jpg);
-}
-
-.bg-img-2-2 {
-background-image: url(../img/background/hero-bg-2-2.jpg);
-}
-
-.bg-img-3-2 {
-background-image: url(../img/background/hero-bg-3-2.jpg);
-}
-
-.bg-img-4-2 {
-background-image: url(../img/background/hero-bg-4-2.jpg);
-}
-
-
-/* hero split slider IMG BACKGROUND */
-.bg-split-img-1 {
-background-image: url(../img/background/hero-split-bg-1.jpg);
-}
-
-.bg-split-img-2 {
-background-image: url(../img/background/hero-split-bg-2.jpg);
-}
-
-.bg-split-img-3 {
-background-image: url(../img/background/hero-split-bg-3.jpg);
-}
-
-.bg-split-img-4 {
-background-image: url(../img/background/hero-split-bg-4.jpg);
-}
-
-/* hero split slider IMG BACKGROUND - RAIN, PARTICLES */
-.bg-split-img-1-2 {
-background-image: url(../img/background/hero-split-bg-1-2.jpg);
-}
-
-.bg-split-img-2-2 {
-background-image: url(../img/background/hero-split-bg-2-2.jpg);
-}
-
-.bg-split-img-3-2 {
-background-image: url(../img/background/hero-split-bg-3-2.jpg);
-}
-
-.bg-split-img-4-2 {
-background-image: url(../img/background/hero-split-bg-4-2.jpg);
-}
 
 
 /* works IMG BACKGROUND */
@@ -222,31 +110,31 @@ background-position: center center;
 }
 
 .works-inner-img-2 {
-background-image: url(../img/works/works-2.jpg);
+background-image: url(../img/works/works-1.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-3 {
-background-image: url(../img/works/works-3.jpg);
+background-image: url(../img/works/works-1.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-4 {
-background-image: url(../img/works/works-4.jpg);
+background-image: url(../img/works/works-1.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-5 {
-background-image: url(../img/works/works-5.jpg);
+background-image: url(../img/works/works-1.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-6 {
-background-image: url(../img/works/works-6.jpg);
+background-image: url(../img/works/works-1.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
@@ -492,30 +380,59 @@ margin: 0 auto;
 }
 
 h1 {
+/* background-color:white; */
+height:180px;
 font-family: 'Oswald', sans-serif;
 font-size: 90px;
 font-weight: 700;
 line-height: .9;
-letter-spacing: -0.04em;
+letter-spacing: -0.015em;
 color: #fff;
 margin: 160px auto 50px auto;
 text-align: center;
 text-transform: uppercase;
--webkit-transform: rotate(-30deg);
+/* -webkit-transform: rotate(-30deg);
    -moz-transform: rotate(-30deg);
     -ms-transform: rotate(-30deg);
      -o-transform: rotate(-30deg);
-        transform: rotate(-30deg);
+        transform: rotate(-30deg); */
 -webkit-transform-origin: center;
    -moz-transform-origin: center;
     -ms-transform-origin: center;
 	 -o-transform-origin: center;
         transform-origin: center;
-text-shadow: 1px 1px 2px #000;
+text-shadow: 2px 3px 3px #000;
+}
+
+#punch
+{
+font-weight:1000;
+font-family: 'Oswald', sans-serif;
+font-size: 70px;
+font-weight: 700;
+line-height: .9;
+letter-spacing: -0.015em;
+color: #fff;
+margin: 160px auto 50px auto;
+text-align: center;
+text-transform: uppercase;
+/* -webkit-transform: rotate(-30deg);
+   -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+     -o-transform: rotate(-30deg);
+        transform: rotate(-30deg); */
+-webkit-transform-origin: center;
+   -moz-transform-origin: center;
+    -ms-transform-origin: center;
+	 -o-transform-origin: center;
+        transform-origin: center;
+text-shadow: 2px 3px 3px #000;
 }
 
 @media only screen and (max-width: 640px) {
-  h1 {
+h1 {
+  /* background-color:white; */
+  height:120px;
     font-size: 57px;
     margin: 37px auto 34px auto;
     -webkit-transform: rotate(0deg);
@@ -524,6 +441,15 @@ text-shadow: 1px 1px 2px #000;
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
   }
+#punch{
+  font-size: 57px;
+  margin: 37px auto 34px auto;
+  -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
 }
 
 .highlighter {
@@ -584,22 +510,23 @@ margin: 0;
 text-align: center;
 text-transform: uppercase;
 }
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 h6 {
 font-family: 'Oswald', sans-serif;
-font-size: 23px;
+/* font-family: 'Montserrat', sans-serif; */
+font-size: 30px;
 font-weight: 400;
 line-height: 1;
-letter-spacing: -0.04em;
+letter-spacing: 0.03em;
 color: #fff;
 margin: 0 auto;
 text-align: center;
 text-transform: uppercase;
--webkit-transform: rotate(60deg);
+/* -webkit-transform: rotate(60deg);
    -moz-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
      -o-transform: rotate(60deg);
-        transform: rotate(60deg);
+        transform: rotate(60deg); */
 -webkit-transform-origin: center;
    -moz-transform-origin: center;
     -ms-transform-origin: center;
@@ -610,6 +537,7 @@ text-shadow: 1px 1px 2px #000;
 
 @media only screen and (max-width: 640px) {
   h6 {
+    font-size: 20px;
     margin: 45px auto 0 auto;
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
@@ -623,11 +551,11 @@ text-shadow: 1px 1px 2px #000;
 position: relative;
 margin: 0 auto;
 text-align: center;
--webkit-transform: rotate(-30deg);
+/* -webkit-transform: rotate(-30deg);
    -moz-transform: rotate(-30deg);
     -ms-transform: rotate(-30deg);
      -o-transform: rotate(-30deg);
-        transform: rotate(-30deg);
+        transform: rotate(-30deg); */
 -webkit-transform-origin: center;
    -moz-transform-origin: center;
     -ms-transform-origin: center;
@@ -648,7 +576,7 @@ z-index: 1;
 }
 
 .decoration-left {
-width: 6%;
+width: 10%;
 height: 1px;
 background: #fff;
 margin: 0 119px 10px 0;
@@ -658,12 +586,12 @@ display: inline-block;
 
 @media only screen and (max-width: 640px) {
   .decoration-left {
-    width: 3%;
+    width: 14%;
   }
 }
 
 .decoration-right {
-width: 6%;
+width: 10%;
 height: 1px;
 background: #fff;
 margin: 0 0 10px 119px;
@@ -673,7 +601,7 @@ display: inline-block;
 
 @media only screen and (max-width: 640px) {
   .decoration-right {
-    width: 3%;
+    width: 14%;
   }
 }
 
@@ -1073,6 +1001,7 @@ font-size: 50px;
 line-height: 1;
 display: inline-block;
 width: 326px;
+margin:0.25rem;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1229,6 +1158,48 @@ overflow-y: auto;
 z-index: 100;
 }
 
+/* Logo */
+
+#logo
+{
+  background-image: url(../img/background/finallogo2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:200px;
+  height:200px;
+  margin:0 auto;
+  /* border:1px solid white; */
+  /* background-color:white; */
+  margin:20px auto;
+  margin-bottom:-100px;
+}
+
+#logo:hover {
+  transition: 150.0s;
+  -webkit-transition: 150.0s;
+  -moz-transition: 150.0s;
+  -ms-transition:150.0s;
+  -o-transition: 150.0s;
+  -webkit-transform: rotateY(72000deg);
+  -moz-transform: rotateY(72000deg);
+  -o-transform: rotateY(72000deg);
+  -ms-transform: rotateY(72000deg);
+  transform: rotateY(72000deg);
+} 
+@media only screen and (max-width: 640px) {
+
+#logo
+{
+  width:100px;
+  height:100px;
+  margin:18px auto;
+  margin-bottom:-15px;
+}
+}
+
+
+
 
 /* borders */
 .border-top,
@@ -1358,11 +1329,11 @@ z-index: 100;
 position: relative;
 margin: 28px auto;
 width: 400px;
--webkit-transform: rotate(60deg);
+/* -webkit-transform: rotate(60deg);
    -moz-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
      -o-transform: rotate(60deg);
-        transform: rotate(60deg);
+        transform: rotate(60deg); */
 -webkit-transform-origin: center;
    -moz-transform-origin: center;
     -ms-transform-origin: center;
@@ -1420,6 +1391,7 @@ position: relative;
 
 ul#countdown li span.seconds {
 font-family: 'Oswald', sans-serif;
+text-shadow: 2px 2px 4px #000;
 font-size: 55px;
 font-weight: 400;
 line-height: 1.1;
@@ -1480,6 +1452,7 @@ font-weight: 300;
 text-align: center;
 margin: 0;
 padding: 0 0 0 24px;
+text-shadow: 2px 2px 4px #000;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1491,12 +1464,13 @@ padding: 0 0 0 24px;
 .until-launch {
 font-family: 'Oswald', sans-serif;
 color: #fff;
-font-size: 23px;
+font-size: 35px;
 font-weight: 700;
 line-height: 1;
-letter-spacing: -0.04em;
+letter-spacing: 0.01em;
 text-transform: uppercase;
 text-align: center;
+text-shadow: 2px 2px 4px #000;
 margin: 0 0 10px 0;
 }
 

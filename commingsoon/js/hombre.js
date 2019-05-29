@@ -93,10 +93,10 @@ $(function() {
     changeOnClick: false,
     animationIn: "fadeInLeft",
     animationOut: "fadeOutRight",
-    speed: 4000,
+    speed: 5000,
     words: [
-      'this is<br><span class="highlighter">Hombre</span>',
-      'Hombre<br><span class="highlighter">means man</span>'
+      '<big>Effervescence</big><br><span class="highlighter">2k19</span>',
+      '<span id="punch">Get ready to<br><span class="highlighter">Experience</span></span>'
     ]
   });
 
