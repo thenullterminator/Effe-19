@@ -104,37 +104,37 @@
 
 /* works IMG BACKGROUND */
 .works-inner-img-1 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-2 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-3 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-4 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-5 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
 
 .works-inner-img-6 {
-background-image: url(../img/works/works-1.jpg);
+background-image: url(../img/background/img2.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 }
@@ -378,11 +378,19 @@ margin: 0 auto;
     margin-top: -3px;
   }
 }
-
+@import url('https://fonts.googleapis.com/css?family=Acme|Baloo|Francois+One|Righteous&display=swap');
 h1 {
 /* background-color:white; */
 height:180px;
+
+
 font-family: 'Oswald', sans-serif;
+/* font-family: 'Acme', sans-serif; */
+/* font-family: 'Righteous', cursive; */
+/* font-family: 'Francois One', sans-serif; */
+/* font-family: 'Baloo', cursive; */
+
+
 font-size: 90px;
 font-weight: 700;
 line-height: .9;
