@@ -2828,15 +2828,15 @@ letter-spacing: 0.15em;
 
 
 /* newsletter placeholders */
-input[type="text"].subscribe-email::-webkit-input-placeholder {
+input.subscribe-email::-webkit-input-placeholder {
 color: #111;
 }
 
-input[type="text"].subscribe-email:-ms-input-placeholder{
+input.subscribe-email:-ms-input-placeholder{
 color: #111;
 }
 
-input[type="text"].subscribe-email::-moz-placeholder {
+input.subscribe-email::-moz-placeholder {
 color: #111;
 }
 
