@@ -1892,26 +1892,26 @@ font-size: 40px;
 
 .facts-counter-title,
 .contact-info-text {
-font-size: 11px;
+font-size: 14px;
 letter-spacing: 0.05em;
 }
 
 @media only screen and (max-width: 880px) {
   .facts-counter-title,
   .contact-info-text {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
 .facts-counter-title.large,
 .contact-info-text.large {
-font-size: 12px;
+font-size: 14px;
 }
 
 @media only screen and (max-width: 880px) {
   .facts-counter-title.large,
   .contact-info-text.large {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
