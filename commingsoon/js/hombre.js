@@ -73,7 +73,7 @@ $(function() {
   // 3. countdown SETUP
   $("#countdown").countdown(
     {
-      date: "7 June 2020 12:00:00", // countdown target date settings
+      date: "19 Oct 2019 12:00:00", // countdown target date settings
       format: "on"
     },
     function() {}
@@ -93,10 +93,10 @@ $(function() {
     changeOnClick: false,
     animationIn: "fadeInLeft",
     animationOut: "fadeOutRight",
-    speed: 4000,
+    speed: 5000,
     words: [
-      'this is<br><span class="highlighter">Hombre</span>',
-      'Hombre<br><span class="highlighter">means man</span>'
+      '<big>Effervescence</big><br><span class="highlighter">2k19</span>',
+      '<span id="punch">Get ready to<br><span class="highlighter">Experience</span></span>'
     ]
   });
 
@@ -173,50 +173,21 @@ $(function() {
   $("form#subscribe").on("submit", function() {
     $("form#subscribe .subscribe-error").remove();
     var s = !1;
-    if (
-      ($(".subscribe-requiredField").each(function() {
-        if ("" === jQuery.trim($(this).val()))
-          $(this)
-            .prev("label")
-            .text(),
-            $(this)
-              .parent()
-              .append(
-                '<span class="subscribe-error">Please enter your Email</span>'
-              ),
-            $(this).addClass("inputError"),
-            (s = !0);
-        else if ($(this).hasClass("subscribe-email")) {
-          var r = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-          r.test(jQuery.trim($(this).val())) ||
-            ($(this)
-              .prev("label")
-              .text(),
-            $(this)
-              .parent()
-              .append(
-                '<span class="subscribe-error">Please enter a valid Email</span>'
-              ),
-            $(this).addClass("inputError"),
-            (s = !0));
-        }
-      }),
-      !s)
-    ) {
-      $("form#subscribe input.submit").fadeOut("normal", function() {
-        $(this)
-          .parent()
-          .append("");
+
+    $("form#subscribe input.submit").fadeOut("normal", function() {
+      $(this)
+        .parent()
+        .append("");
+    });
+    var r = $(this).serialize();
+    $.post($(this).attr("action"), r, function() {
+      $("form#subscribe").slideUp("fast", function() {
+        $(this).before(
+          '<div class="subscribe-success">Thank you for registering.</div>'
+        );
       });
-      var r = $(this).serialize();
-      $.post($(this).attr("action"), r, function() {
-        $("form#subscribe").slideUp("fast", function() {
-          $(this).before(
-            '<div class="subscribe-success">Thank you for subscribing.</div>'
-          );
-        });
-      });
-    }
+    });
+
     return !1;
   });
 
