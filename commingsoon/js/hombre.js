@@ -192,7 +192,7 @@ $(function() {
   });
 
   // 9. signup form
-  $(".ex-modal-launcher, .ex-modal-closer").on("click", function() {
+  $(".ex-modal-launcher, .ex-modal-closer,#fire-ex-modal").on("click", function() {
     if ($(".ex-modal").hasClass("open")) {
       $(".ex-modal").removeClass("open");
       $(".ex-modal").addClass("close");
