@@ -2759,7 +2759,7 @@ overflow: hidden;
 
 #subscribe input {
 position: relative;
-width: 225px;
+width: 280px;
 height: 40px;
 text-align: center;
 color: #111;
@@ -2772,7 +2772,7 @@ background: none;
      -o-transition: all 0.5s linear;
         transition: all 0.5s linear;
 font-family: 'Raleway', sans-serif;
-font-size: 14px;
+font-size: 16px;
 line-height: 1.5;
 font-style: normal;
 font-weight: normal;
@@ -2830,13 +2830,19 @@ letter-spacing: 0.15em;
 /* newsletter placeholders */
 input.subscribe-email::-webkit-input-placeholder {
 color: #111;
+font-size: 16px;
+text-align: center;
 }
 
 input.subscribe-email:-ms-input-placeholder{
+  font-size: 16px;
+  text-align: center;
 color: #111;
 }
 
 input.subscribe-email::-moz-placeholder {
+  font-size: 16px;
+  text-align: center;
 color: #111;
 }
 
