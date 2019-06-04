@@ -97,7 +97,7 @@
 } */
 
 
-
+/* 
 .gallery-inner-img-1 {
   background-image: url(../img/gallery/gal12.jpg);
   background-repeat: no-repeat;
@@ -111,68 +111,83 @@
   background-position: center center;
   }
  
-  .gallery-inner-img-3 {
-    background-image: url(../img/gallery/gal3.1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    }
+.gallery-inner-img-3 {
+  background-image: url(../img/gallery/gal3.1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
   
-    .gallery-inner-img-4 {
-      background-image: url(../img/gallery/gal4.1.jpg);
-      background-repeat: no-repeat;
-      background-position: center center;
-      }
+.gallery-inner-img-4 {
+  background-image: url(../img/gallery/gal4.1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
     
-      .gallery-inner-img-5 {
-        background-image: url(../img/gallery/gal5.1.jpg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        }
-        .gallery-inner-img-6 {
-          background-image: url(../img/gallery/gal6.1.jpg);
-          background-repeat: no-repeat;
-          background-position: center center;
-          }
-      
+.gallery-inner-img-5 {
+  background-image: url(../img/gallery/gal5.1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+.gallery-inner-img-6 {
+  background-image: url(../img/gallery/gal6.1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
 
 
 
-/* works IMG BACKGROUND */
-.works-inner-img-1 {
-background-image: url(../img/background/img2.jpg);
-background-repeat: no-repeat;
-background-position: center center;
-}
+  @media only screen and (max-width: 640px) {
+  
 
-.works-inner-img-2 {
-background-image: url(../img/background/img2.jpg);
-background-repeat: no-repeat;
-background-position: center center;
-}
+.gallery-inner-img-1 {
+  background-image: url(../img/gallery/gal12.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
 
-.works-inner-img-3 {
-background-image: url(../img/background/img2.jpg);
-background-repeat: no-repeat;
-background-position: center center;
-}
+    
+.gallery-inner-img-2 {
+  background-image: url(../img/gallery/gal2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+ 
+.gallery-inner-img-3 {
+  background-image: url(../img/gallery/gal3.1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+  
+.gallery-inner-img-4 {
+  background-image: url(../img/gallery/gal4.1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+    
+.gallery-inner-img-5 {
+  background-image: url(../img/gallery/gal5.1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+.gallery-inner-img-6 {
+  background-image: url(../img/gallery/gal6.1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+  }
+ */
 
-.works-inner-img-4 {
-background-image: url(../img/background/img2.jpg);
-background-repeat: no-repeat;
-background-position: center center;
-}
-
-.works-inner-img-5 {
-background-image: url(../img/background/img2.jpg);
-background-repeat: no-repeat;
-background-position: center center;
-}
-
-.works-inner-img-6 {
-background-image: url(../img/background/img2.jpg);
-background-repeat: no-repeat;
-background-position: center center;
-}
+ @media only screen and (max-width: 640px) {
+   .galdata{
+     margin-bottom:290px;
+   }
+   .galdata1{
+    margin-bottom:120px;
+  }
+  .galdata2{
+    margin-bottom:110px;
+  }
+ }
 
 
 /* reset */
