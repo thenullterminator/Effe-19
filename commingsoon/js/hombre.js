@@ -180,27 +180,28 @@ $(function() {
         .append("");
     });
     var r = $(this).serialize();
-    $.post($(this).attr("action"), r, function() {
-      $("form#subscribe").slideUp("fast", function() {
-        $(this).before(
-          '<div class="subscribe-success">Thank you for registering.</div>'
-        );
-      });
+    $.post($(this).attr("action"), r, function() {});
+    $("form#subscribe").slideUp("fast", function() {
+      $(this).before(
+        '<div class="subscribe-success">Thank you for registering.</div>'
+      );
     });
-
     return !1;
   });
 
   // 9. signup form
-  $(".ex-modal-launcher, .ex-modal-closer,#fire-ex-modal").on("click", function() {
-    if ($(".ex-modal").hasClass("open")) {
-      $(".ex-modal").removeClass("open");
-      $(".ex-modal").addClass("close");
-    } else {
-      $(".ex-modal").removeClass("close");
-      $(".ex-modal").addClass("open");
+  $(".ex-modal-launcher, .ex-modal-closer,#fire-ex-modal").on(
+    "click",
+    function() {
+      if ($(".ex-modal").hasClass("open")) {
+        $(".ex-modal").removeClass("open");
+        $(".ex-modal").addClass("close");
+      } else {
+        $(".ex-modal").removeClass("close");
+        $(".ex-modal").addClass("open");
+      }
     }
-  });
+  );
   // 9-1. signup form additional CLOSER
   $(".menu-toggle").on("click", function() {
     $(".ex-modal").removeClass("open");
